@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+/* url에 ""묶어도 되고 안 묵어도 되고 */
+@font-face {
+  font-family: "SS-regular";
+  src: url(../font/SS-regular.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "SS-bold";
+  src: url("../font/SS-bold.woff2") format("woff2");
+}

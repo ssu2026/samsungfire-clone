@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "SS-regular", "맑은 고딕", sans-serif;
+  font-size: 10px;
+  color: #222;
+  line-height: 1.5;
+  letter-spacing: -0.23px;
+  text-size-adjust: 100%;
+  overflow-x: hidden;
+  background-color: #fff;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  display: block;
+  color: #222;
+  text-decoration: none;
+}
+
+img {
+  border: 0;
+  vertical-align: middle;
+}
+
+.wrap {
+  width: 100%;
+}
