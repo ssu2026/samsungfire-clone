@@ -10,7 +10,7 @@ html,
 body {
   font-family: "SS-regular", "맑은 고딕", sans-serif;
   font-size: 10px;
-  color: #222;
+  color: #0b0d0f;
   line-height: 1.5;
   letter-spacing: -0.23px;
   text-size-adjust: 100%;
@@ -25,7 +25,7 @@ li {
 
 a {
   display: block;
-  color: #222;
+  color: #0b0d0f;
   text-decoration: none;
 }
 
