@@ -86,9 +86,17 @@
   position: relative;
   width: 16px;
   height: 16px;
-  background-image: url("../../images/main/homepage/slider_play.svg");
+  background-image: url("../../images/main/homepage/slider_stop.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   cursor: pointer;
+}
+
+@media screen and (max-width: 1219px) {
+  .sw-banner-section {
+    margin-top: 2rem;
+    border-radius: 2rem;
+    height: 200px;
+  }
 }

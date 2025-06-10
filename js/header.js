@@ -1,6 +1,7 @@
 window.addEventListener("scroll", () => {
-  // console.log("스크롤했습니다!");
-  // console.log("scrollY: ", window.scrollY);
+  //  console.log("스크롤했습니다!");
+  //  console.log("scrollY: ", window.scrollY);
+
   if (window.scrollY >= 50) {
     document.querySelector(".header-bottom").classList.add("sticky");
     // console.log("header-bottom 고정");
@@ -9,3 +10,5 @@ window.addEventListener("scroll", () => {
     // console.log("header-bottom 고정해제");
   }
 });
+
+// 화면 너비 1219px 이하 일 때
